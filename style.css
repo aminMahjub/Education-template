@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 0.1px solid var(--light-gray);
+    border-bottom: 0.1px solid var(--gray-border-bottom);
     position: relative;
 }
 
@@ -70,7 +70,7 @@ body {
     font-weight: 600;
     font-style: normal;
     line-height: 89.5%;
-    color: var(--gray-border-bottom);
+    color: var(--light-gray);
 }
 
 .author-email {
@@ -90,7 +90,7 @@ body {
     font-weight: 700;
     font-style: normal;
     line-height: 89.5%;
-    color: var(--gray-border-bottom);
+    color: var(--light-gray);
     cursor: pointer;
     background-color: white;
     background-repeat: no-repeat;
