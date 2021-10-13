@@ -197,3 +197,66 @@ li a:hover {
     cursor: pointer;
     margin-left: -60px;
 }
+
+.intro-container {
+    background-color: var(--blue);
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.poc-para {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 89.5%;
+    color: var(--hard-blue);
+}
+
+.main-para {    
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    width: 450px;
+    margin: 32px 0px;
+}
+
+.get-started-btn {
+    height: 60px;
+    width: 130.5px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 540;
+    line-height: 89.5%;
+    color: aliceblue;
+    background-color: var(--hard-blue);
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.get-started-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 60px;
+    width: 130.5px;
+    z-index: -1;
+    background-color: var(--indigo);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.3s cubic-bezier(0.42, 0, 1, 1.24) 0.1s;
+}
+
+.get-started-btn:hover::before  {
+    transform: scaleX(1);
+}
+
+
+
