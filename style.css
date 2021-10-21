@@ -348,4 +348,217 @@ li a:hover {
     margin-top: 60px;
 }
 
+.edu-topics {
+    background-image: url('https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/section_bg01.png.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+    padding: 90px 0px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 180px;
+}
 
+.topics-box {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.topics-logo {
+    background-image: url('data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABFCAMAAADerVCrAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAB11BMVEUXmnP///8XmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnMXmnP///8qvp8aAAAAm3RSTlMAAFDr4uMPOMDMwtJjMzzHMMguXAUTrvgdzuXda/4UIr+7NTa2pVX1F7iKibnzFUFEvYcv8j7xn9+ewYPkQvARLeoCLMOAc3KBRdaFhoRW+u5XA/wIOWTaeA4rk69LHJyLKdH2qeyiqgwYs6Cn3Foktw1MbwlYaZk0lNmCEkftSRDUGVsHJaiyuhoKd+jnrfQb4Uislgt118pnASfW+mcAAAABYktHRAH/Ai3eAAAAB3RJTUUH5AUFDBg2+oR40gAAAoxJREFUWMPtmOlfEkEYxycxAQVCFJUVSMpVCBBRFMmENMxCUFO7Lc3yyg47zG677/uu3z/bLtfu+pl9sQu86BO/F+wzv332y87D7MwOhGRUoYEqaSqIVJXqOMD2LSCgiqhQFVBKkFanVySdVgZUrbQ+1TKgGhiMCmRAjSzIpKQ+pjKoDCopaAfMSkBm1MqALHVKOITUWUo9jRQNVG9VRrHWy4AaGpuUcJoaG/6ZcVQGlUHFANnANCsQA5sMyO5QtvQ77HLTiHOnIjlLPB+1uFSoZStol9pXSGC3BNQKtk2VWLSKOVq0u9WUiBB3O7Sipgd71HEI8cInNEzwd9CSnIFOkQJOWk6HX/Q8BNFFy+kOScsaMtOyuhDMhT3opS5EYfSJ34b7EKFlWXvRkw33op/afQZGcdOIfdS0fugywQCiMVrCfgwOidtDgzhAy4tFMZAO4himftNBsFKDxQg18RDi/OEwkKDuEDRgpAYDDTUxAXRyoFH1T4egZPrnCyvZONAUTg+fFLykQHmR4j7HMD5RoMZxhANNRqYKrdBUZDJ9Z9OxAjVdaG0k2lYklUH/NwiIHJUMrGO13KA/fuKk2Dt1OsqZM2ckiW0+zqtMns2MRTIbB+aEs+fmcX4mfIHBQkAwRwAbu+gClpbz3ooHuLh66TJwhWS7dnUNvmvZ09eBGzf5YN2BW7lrNjB/mz+67+BubrfSPYF79/ngwQKS+RqN4uEmbz4aRii3cKw8xsYTPjDrhWXIADzlj8/sQO6vrOU1eJ5nQWQdaH6x+hJ49Tp/729YILjI6oG3QidN7/B+KfzhIxKiBWUOiM9mQORT6jNXOdeYpJpfvnKe/5tF7H3/8ZMzf/3+Iza1EeAvtr05pHWuTqcAAAAASUVORK5CYII=');
+    background-repeat: no-repeat;
+    height: 69px;
+    width: 72px;
+    margin-bottom: 16px;
+}
+
+.topics-number {
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 89.5%;
+    color: var(--green);
+}
+
+.popular-courses {
+    text-align: center;
+    margin: 180px auto;
+}
+
+.popular-courses-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular-courses-box {
+    border: 1px solid black;
+    height: 394px;
+    width: 289px;
+    margin-left: 22px;
+}
+
+.pupolar-courses-picture {
+    background-image: url('https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xpopular_sub1.png.pagespeed.ic.5HRkRcL9IM.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.pupolar-courses-name {
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 89.5%;
+    color: var(--blue-name);
+    text-align: left;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.review-section {
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-number {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 89.5%;
+    color: var(--badge-gray);
+}
+
+.checked {
+  color: orange;
+}
+
+.courses-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.courses-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses-detail-action {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAAAx0lEQVQ4je3RMWpCQRSF4S+GNClME7WL2icg2GQD6S0s3JcLcQPuwBTPwlJII4SUCSkTUzgDD/WNvocIQg6c5h7uP9wz/Oti1cbDKUB9LLAOXoRZJd3jPQeL/kCzaKmWAI7Q2jNvYFgFmOqsUwU4T2RZIivUDV7tdjgLWSXdYYxl8DjMzqerRFbDCwbo2pz7hgmm+C3z0JNN8dv9RWd4PBbWx1cCFv2N50OwW6yOgEWvwk6heiVg0b08YN+n1HF96JSgH3zmB39VWUcEyPr6eQAAAABJRU5ErkJggg==');
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: center left;
+    margin-right: 12px;
+    padding-left: 25px;
+    padding-top: 4px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--badge-gray);
+}
+
+.follower-person {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAAAx0lEQVQ4je3RMWpCQRSF4S+GNClME7WL2icg2GQD6S0s3JcLcQPuwBTPwlJII4SUCSkTUzgDD/WNvocIQg6c5h7uP9wz/Oti1cbDKUB9LLAOXoRZJd3jPQeL/kCzaKmWAI7Q2jNvYFgFmOqsUwU4T2RZIivUDV7tdjgLWSXdYYxl8DjMzqerRFbDCwbo2pz7hgmm+C3z0JNN8dv9RWd4PBbWx1cCFv2N50OwW6yOgEWvwk6heiVg0b08YN+n1HF96JSgH3zmB39VWUcEyPr6eQAAAABJRU5ErkJggg==');
+}
+
+.like-person {
+    padding-top: 0px;
+    margin-top: 4px;
+    background-size: 18px;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABmJLR0QA/wD/AP+gvaeTAAABHklEQVQ4ja3SvS/DURTG8Q9t0EbVohpLJRoi9TKJeFlNBn+DzWSxGJjEf2JnQCLRCIuZ2SwYRASLNAy9v6Savvya+k73nufc59xz7+GfSNTtezCJPD7xXaenMYUsXusPRqxhDw94wRxucRj0fSziHjlM4ABlSIakVWxjA2815jvYDXnvWK/RhnGEr1AQnIcqjTjBcRNtFKfRjZLoC+00YqtJHJ4xgEQSP/hokfzUQqPaml5UkPL34ePSi35Uou8fQxF3HRpt4lHNY6dxg5EOTHLhTKpeKOECmRgmQ7jEfLOEFZyFxGZkVcdlqV21hXCzRnOVU53k5XYmETO4QqEmVgixUlyTiHFcYxbTYV3s1CQir9pKOay7IoPBbk1i8wumnyzl8MBW1gAAAABJRU5ErkJggg==');
+}
+
+.good-teachers {
+    text-align: center;
+    padding: 120px 0px;
+    background-image: url(https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/section_bg02.png.webp);
+}
+
+.best-teachers-title {
+    color: var(--blue);
+}
+
+.best-teachers-para {
+    color: #fff;
+}
+
+.teachers-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teachers-box {
+    height: 317px;
+    width: 210px;
+    margin-right: 25px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
+.profile-image {
+    background-image: url('https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam1.png.pagespeed.ic.XP8FuCEpbp.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.teacher-name {
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 89.5%;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.teacher-role {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 89.5%;
+    margin-top: 15px;
+}
+
+.view-more-btn {
+    background-color: #fff;
+    color: black;
+    margin-top: 60px;
+    width: 200px;
+}
+
+.view-more-btn.btn-actions::before {
+    background-color: black;
+}
+
+.view-more-btn:hover {
+    color: white;
+}
+
+.footer {
+    height: 50px;
+    background-color: teal;
+    text-align: center;
+}
+
+.about {
+    font-size: 19px;
+    color: #fff;
+    font-weight: 600;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
